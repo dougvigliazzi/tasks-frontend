@@ -6,7 +6,7 @@ pipeline {
                 sh '/usr/local/apache-maven-3.6.0/bin/mvn clean package -DskipTests=true'
             }
         }
-        stage ('Unit Test') {
+        stage ('Unit Test ') {
             steps {
                 sh '/usr/local/apache-maven-3.6.0/bin/mvn test'
             }
