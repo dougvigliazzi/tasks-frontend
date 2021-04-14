@@ -8,7 +8,7 @@ pipeline {
         }
         stage ('Unit Test') {
             steps {
-                sh '/usr/local/apache-maven-3.6.0/bin/mvn test'
+                sh '/usr/local/apache-maven-3.6.0/bin/mvn test' 
             }
         }
     }
